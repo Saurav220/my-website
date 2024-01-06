@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+nav {
+  padding: 3vw 2vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  justify-content: space-evenly;
+}
+
+#nav {
+  display: flex;
+
+  align-items: center;
+
+  gap: 1vw;
+  padding: 1vw;
+  justify-content: space-evenly;
+}
+
+#nav h4 {
+  padding: 10px 20px;
+  border: 1px solid #0000003c;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #000000bb;
+  transition: all ease 0.4s;
+  position: relative;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+#nav h4::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #3bcfda;
+  left: 0;
+  bottom: -100%;
+  border-radius: 50%;
+  transition: all ease 0.4s;
+}
+
+#nav h4:hover::after {
+  bottom: 0;
+  border-radius: 0;
+}
+
+#nav h4 a {
+  color: #040404;
+  text-decoration: none;
+  position: relative;
+  z-index: 9;
+}
+
+#nav h4:hover a {
+  color: #fff;
+}
+.text-color-main {
+  color: #3bcfda;
+}
+
+.titleof {
+  font-size: 10vh;
+  padding: 20vh;
+  justify-content: center;
+  text-align: center;
+  opacity: 1;
+}
+
+#hue p {
+  height: 11vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  padding: 2vw;
+  justify-content: center;
+}
+
+#hue a {
+  padding: 10px 20px;
+  border: 1px solid #0000005c;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #000000d5;
+  transition: all ease 0.4s;
+  position: relative;
+  font-size: 18px;
+  overflow: hidden;
+  z-index: 150;
+}
+
+#hue a::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #3bcfda;
+  left: 0;
+  bottom: -100%;
+  border-radius: 50%;
+  transition: all ease 0.4s;
+}
+
+#hue a:hover::after {
+  bottom: 0;
+  border-radius: 0;
+}
+
+.gap {
+  height: 20vh;
+  width: 100%;
+}
+
+.backcolor {
+  background-color: #3bcfda;
+  height: 100vh;
+}
+#skill {
+  padding: 10vh;
+  display: flex;
+  justify-content: center;
+}
